@@ -1,4 +1,4 @@
-![image](https://github.com/Monkfishare/Topaz/assets/50627932/955be176-2351-498e-b537-cae302f5cd22)# Topaz Photo AI models
+# Topaz Photo AI models
 # Version: 2.1.2
 ## Tutorial: https://www.bilibili.com/read/cv25993828/ 
 ### Tutorial: https://archive.ph/HfQIm

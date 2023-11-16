@@ -1,115 +1,118 @@
-# Topaz Photo AI models
+![image](https://github.com/Monkfishare/Topaz/assets/50627932/955be176-2351-498e-b537-cae302f5cd22)# Topaz Photo AI models
 # Version: 2.1.2
 ## Tutorial: https://www.bilibili.com/read/cv25993828/ 
 ### Tutorial: https://archive.ph/HfQIm
 
-http://models.topazlabs.com/v1/WhiteBalanceData-v2.bin
-http://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/autoNoiseParam2-ov.tz
-http://models.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz
-http://models.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/dnt-v4-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/dnt-v4-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/dnt-v4-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/drw-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/drw-v1-fp32-256x256-ov.tz
-http://models.topazlabs.com/v1/drw-v1-fp32-256x256-ox.tz
-http://models.topazlabs.com/v1/drw_native-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/drw_native-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/drw_standard-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/drw_strong-v2-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/drw_strong-v2-fp32-256x256-ov.tz
-http://models.topazlabs.com/v1/drw_strong-v2-fp32-256x256-ox.tz
-http://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz
-http://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ox.tz
-http://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz
-http://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-96x96-2x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp16-96x96-4x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-128x128-2x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-128x128-4x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz
-http://models.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz
-http://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz
-http://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz
-http://models.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz
-http://models.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz
-http://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/ggi-v2-fp32-192x192-2x-ox.tz
-http://models.topazlabs.com/v1/ggi-v2-fp32-192x192-4x-ox.tz
-http://models.topazlabs.com/v1/ggn-v3-fix-fp16-128x128-2x-ox.tz
-http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz
-http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz
-http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ox.tz
-http://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz
-http://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-2x-ox.tz
-http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz
-http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz
-http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ox.tz
-http://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz
-http://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz
-http://models.topazlabs.com/v1/gmp-v2-fp32-192x192-2x-ox.tz
-http://models.topazlabs.com/v1/gmp-v2-fp32-192x192-4x-ox.tz
-http://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz
-http://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz
-http://models.topazlabs.com/v1/sdi_embed0.bin
-http://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz
-http://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz
-http://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ox.tz
-http://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz
-http://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz
-http://models.topazlabs.com/v1/sms_flexible-v2-fp16-320x320-ov.tz
-http://models.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz
-http://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz
-http://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz
-http://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz
-http://models.topazlabs.com/v1/tpd-v1-fp16-ov.tz
-http://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz
-http://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz
-http://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz
-http://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz
-http://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz
-http://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz
-http://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz
-http://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz
+
+| Num  | models                                                       |
+| ---- | ------------------------------------------------------------ |
+| 001  | http://models.topazlabs.com/v1/WhiteBalanceData-v2.bin       |
+| 002  | http://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz    |
+| 003  | http://models.topazlabs.com/v1/autoNoiseParam2-ov.tz         |
+| 004  | http://models.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz     |
+| 005  | http://models.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz     |
+| 006  | http://models.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz     |
+| 007  | http://models.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz     |
+| 008  | http://models.topazlabs.com/v1/dnt-v4-fp16-512x512-ov.tz     |
+| 009  | http://models.topazlabs.com/v1/dnt-v4-fp32-512x512-ov.tz     |
+| 010  | http://models.topazlabs.com/v1/dnt-v4-fp32-512x512-ox.tz     |
+| 011  | http://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz |
+| 012  | http://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz |
+| 013  | http://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz |
+| 014  | http://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ov.tz |
+| 015  | http://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ov.tz |
+| 016  | http://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ox.tz |
+| 017  | http://models.topazlabs.com/v1/drw-v1-fp16-512x512-ov.tz     |
+| 018  | http://models.topazlabs.com/v1/drw-v1-fp32-256x256-ov.tz     |
+| 019  | http://models.topazlabs.com/v1/drw-v1-fp32-256x256-ox.tz     |
+| 020  | http://models.topazlabs.com/v1/drw_native-v1-fp16-512x512-ov.tz |
+| 021  | http://models.topazlabs.com/v1/drw_native-v1-fp32-512x512-ox.tz |
+| 022  | http://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ov.tz |
+| 023  | http://models.topazlabs.com/v1/drw_standard-v1-fp32-512x512-ox.tz |
+| 024  | http://models.topazlabs.com/v1/drw_strong-v2-fp16-512x512-ov.tz |
+| 025  | http://models.topazlabs.com/v1/drw_strong-v2-fp32-256x256-ov.tz |
+| 026  | http://models.topazlabs.com/v1/drw_strong-v2-fp32-256x256-ox.tz |
+| 027  | http://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz |
+| 028  | http://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ox.tz |
+| 029  | http://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz |
+| 030  | http://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ox.tz |
+| 031  | http://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz |
+| 032  | http://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz |
+| 033  | http://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ov.tz |
+| 034  | http://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ov.tz |
+| 035  | http://models.topazlabs.com/v1/gclc-v1-fp16-96x96-2x-ov.tz   |
+| 036  | http://models.topazlabs.com/v1/gclc-v1-fp16-96x96-4x-ov.tz   |
+| 037  | http://models.topazlabs.com/v1/gclc-v1-fp32-128x128-2x-ox.tz |
+| 038  | http://models.topazlabs.com/v1/gclc-v1-fp32-128x128-4x-ox.tz |
+| 039  | http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ov.tz |
+| 040  | http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ox.tz |
+| 041  | http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz |
+| 042  | http://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz |
+| 043  | http://models.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz   |
+| 044  | http://models.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz   |
+| 045  | http://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz |
+| 046  | http://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz    |
+| 047  | http://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz     |
+| 048  | http://models.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz     |
+| 049  | http://models.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz |
+| 050  | http://models.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz |
+| 051  | http://models.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz      |
+| 052  | http://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz  |
+| 053  | http://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz  |
+| 054  | http://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz  |
+| 055  | http://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ov.tz  |
+| 056  | http://models.topazlabs.com/v1/ggi-v2-fp32-192x192-2x-ox.tz  |
+| 057  | http://models.topazlabs.com/v1/ggi-v2-fp32-192x192-4x-ox.tz  |
+| 058  | http://models.topazlabs.com/v1/ggn-v3-fix-fp16-128x128-2x-ox.tz |
+| 059  | http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz  |
+| 060  | http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz  |
+| 061  | http://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ox.tz  |
+| 062  | http://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz  |
+| 063  | http://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-2x-ox.tz |
+| 064  | http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz    |
+| 065  | http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz    |
+| 066  | http://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ox.tz    |
+| 067  | http://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ov.tz  |
+| 068  | http://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ov.tz  |
+| 069  | http://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz  |
+| 070  | http://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz  |
+| 071  | http://models.topazlabs.com/v1/gmp-v2-fp32-192x192-2x-ox.tz  |
+| 072  | http://models.topazlabs.com/v1/gmp-v2-fp32-192x192-4x-ox.tz  |
+| 073  | http://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ov.tz    |
+| 074  | http://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz    |
+| 075  | http://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz    |
+| 076  | http://models.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz    |
+| 077  | http://models.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz    |
+| 078  | http://models.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz    |
+| 079  | http://models.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz     |
+| 080  | http://models.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz |
+| 081  | http://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz |
+| 082  | http://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz |
+| 083  | http://models.topazlabs.com/v1/sdi_embed0.bin                |
+| 084  | http://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz |
+| 085  | http://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz |
+| 086  | http://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz |
+| 087  | http://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ox.tz  |
+| 088  | http://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz  |
+| 089  | http://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz    |
+| 090  | http://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz    |
+| 091  | http://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz    |
+| 092  | http://models.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz |
+| 093  | http://models.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz |
+| 094  | http://models.topazlabs.com/v1/sms_flexible-v2-fp16-320x320-ov.tz |
+| 095  | http://models.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz |
+| 096  | http://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz    |
+| 097  | http://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz    |
+| 098  | http://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz    |
+| 099  | http://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz    |
+| 100  | http://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz    |
+| 101  | http://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz    |
+| 102  | http://models.topazlabs.com/v1/tpd-v1-fp16-ov.tz             |
+| 103  | http://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz  |
+| 104  | http://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz  |
+| 105  | http://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz  |
+| 106  | http://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz  |
+| 107  | http://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz |
+| 108  | http://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz |
+| 109  | http://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz     |
+| 110  | http://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz     |

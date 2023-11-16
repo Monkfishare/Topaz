@@ -4,7 +4,7 @@
 ### Tutorial: https://archive.ph/HfQIm
 
 
-| Num  | models                                                       |
+| Num  | Models                                                       |
 | ---- | ------------------------------------------------------------ |
 | 001  | http://models.topazlabs.com/v1/WhiteBalanceData-v2.bin       |
 | 002  | http://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz    |

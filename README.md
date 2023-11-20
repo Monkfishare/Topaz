@@ -1,5 +1,5 @@
 ## Topaz Photo AI models
-## Version: 2.1.2 （Windows）
+## Version: 2.1.3 （Windows）
 ### Tutorial: https://www.bilibili.com/read/cv25993828/ 
 #### Tutorial: https://archive.ph/HfQIm
 

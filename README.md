@@ -6,10 +6,10 @@
 
 | Num  | Models                                                       | Update |
 | ---- | ------------------------------------------------------------ | ------ |
-| 001  | https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz | √      |
-| 002  | https://models.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz | √      |
-| 003  | https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz | √      |
-| 004  | https://models.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz | √      |
+| 001  | https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz |       |
+| 002  | https://models.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz |       |
+| 003  | https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz |       |
+| 004  | https://models.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz |       |
 | 005  | https://models.topazlabs.com/v1/WhiteBalanceData-v2.bin       |        |
 | 006  | https://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2   |        |
 | 007  | https://models.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz2    |        |

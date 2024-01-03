@@ -7,7 +7,7 @@ on:
 
 jobs:
   install_topaz:
-    runs-on: windows-latest
+    runs-on: win11-latest
 
     env:
       TOPAZ_VERSION: '2.2.2'

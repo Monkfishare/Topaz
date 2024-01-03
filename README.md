@@ -8,57 +8,56 @@
 ### Models
 | Num | Models |
 | --- | ------ |
-| 1 | Setting up download from https://models.topazlabs.com/v1/ |
- | 2 | Setting up download from https://models.topazlabs.com/v1/ |
- | 3 | Setting up download from https://models.topazlabs.com/v1/ |
- | 4 | Setting up download from https://models.topazlabs.com/v1/ |
- | 5 | Setting up download from https://models.topazlabs.com/v1/ |
- | 6 | Setting up download from https://models.topazlabs.com/v1/ |
- | 7 | Setting up download from https://models.topazlabs.com/v1/ |
- | 8 | Setting up download from https://models.topazlabs.com/v1/ |
- | 9 | Setting up download from https://models.topazlabs.com/v1/ |
- | 10 | Setting up download from https://models.topazlabs.com/v1/ |
- | 11 | Setting up download from https://models.topazlabs.com/v1/ |
- | 12 | Setting up download from https://models.topazlabs.com/v1/ |
- | 13 | Setting up download from https://models.topazlabs.com/v1/ |
- | 14 | Setting up download from https://models.topazlabs.com/v1/ |
- | 15 | Setting up download from https://models.topazlabs.com/v1/ |
- | 16 | Setting up download from https://models.topazlabs.com/v1/ |
- | 17 | Setting up download from https://models.topazlabs.com/v1/ |
- | 18 | Setting up download from https://models.topazlabs.com/v1/ |
- | 19 | Setting up download from https://models.topazlabs.com/v1/ |
- | 20 | Setting up download from https://models.topazlabs.com/v1/ |
- | 21 | Setting up download from https://models.topazlabs.com/v1/ |
- | 22 | Setting up download from https://models.topazlabs.com/v1/ |
- | 23 | Setting up download from https://models.topazlabs.com/v1/ |
- | 24 | Setting up download from https://models.topazlabs.com/v1/ |
- | 25 | Setting up download from https://models.topazlabs.com/v1/ |
- | 26 | Setting up download from https://models.topazlabs.com/v1/ |
- | 27 | Setting up download from https://models.topazlabs.com/v1/ |
- | 28 | Setting up download from https://models.topazlabs.com/v1/ |
- | 29 | Setting up download from https://models.topazlabs.com/v1/ |
- | 30 | Setting up download from https://models.topazlabs.com/v1/ |
- | 31 | Setting up download from https://models.topazlabs.com/v1/ |
- | 32 | Setting up download from https://models.topazlabs.com/v1/ |
- | 33 | Setting up download from https://models.topazlabs.com/v1/ |
- | 34 | Setting up download from https://models.topazlabs.com/v1/ |
- | 35 | Setting up download from https://models.topazlabs.com/v1/ |
- | 36 | Setting up download from https://models.topazlabs.com/v1/ |
- | 37 | Setting up download from https://models.topazlabs.com/v1/ |
- | 38 | Setting up download from https://models.topazlabs.com/v1/ |
- | 39 | Setting up download from https://models.topazlabs.com/v1/ |
- | 40 | Setting up download from https://models.topazlabs.com/v1/ |
- | 41 | Setting up download from https://models.topazlabs.com/v1/ |
- | 42 | Setting up download from https://models.topazlabs.com/v1/ |
- | 43 | Setting up download from https://models.topazlabs.com/v1/ |
- | 44 | Setting up download from https://models.topazlabs.com/v1/ |
- | 45 | Setting up download from https://models.topazlabs.com/v1/ |
- | 46 | Setting up download from https://models.topazlabs.com/v1/ |
- | 47 | Setting up download from https://models.topazlabs.com/v1/ |
- | 48 | Setting up download from https://models.topazlabs.com/v1/ |
- | 49 | Setting up download from https://models.topazlabs.com/v1/ |
- | 50 | Setting up download from https://models.topazlabs.com/v1/ |
- | 51 | Setting up download from https://models.topazlabs.com/v1/ |
-
+| 1 | https://models.topazlabs.com/v1/WhiteBalanceData-v2.bin  |
+ | 2 | https://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2  |
+ | 3 | https://models.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2  |
+ | 4 | https://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz2  |
+ | 5 | https://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ov.tz2  |
+ | 6 | https://models.topazlabs.com/v1/drw_native-v1-fp16-512x512-ov.tz2  |
+ | 7 | https://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ov.tz2  |
+ | 8 | https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz2  |
+ | 9 | https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz2  |
+ | 10 | https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz2  |
+ | 11 | https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz2  |
+ | 12 | https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-2x-ov.tz2  |
+ | 13 | https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-4x-ov.tz2  |
+ | 14 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ov.tz2  |
+ | 15 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz2  |
+ | 16 | https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz  |
+ | 17 | https://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz2  |
+ | 18 | https://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz2  |
+ | 19 | https://models.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz2  |
+ | 20 | https://models.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz2  |
+ | 21 | https://models.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2  |
+ | 22 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2  |
+ | 23 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ov.tz2  |
+ | 24 | https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz2  |
+ | 25 | https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz2  |
+ | 26 | https://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz2  |
+ | 27 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz2  |
+ | 28 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz2  |
+ | 29 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz2  |
+ | 30 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz2  |
+ | 31 | https://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz2  |
+ | 32 | https://models.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz2  |
+ | 33 | https://models.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2  |
+ | 34 | https://models.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2  |
+ | 35 | https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz  |
+ | 36 | https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz  |
+ | 37 | https://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2  |
+ | 38 | https://models.topazlabs.com/v1/sdi_embed0.bin  |
+ | 39 | https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2  |
+ | 40 | https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2  |
+ | 41 | https://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz2  |
+ | 42 | https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2  |
+ | 43 | https://models.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2  |
+ | 44 | https://models.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2  |
+ | 45 | https://models.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2  |
+ | 46 | https://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2  |
+ | 47 | https://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz2  |
+ | 48 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz2  |
+ | 49 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2  |
+ | 50 | https://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2  |
+ | 51 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2  |
 
 

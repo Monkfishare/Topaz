@@ -1,4 +1,4 @@
-name: Topaz Photo AI models
+name: Install Topaz Photo AI
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
 
     - name: Check if Folder Exists
       run: |
-        if (-Not (Test-Path $env:TOPAZ_VERSION)) {
+        if (-Not (Test-Path -Path $env:TOPAZ_VERSION)) {
           mkdir $env:TOPAZ_VERSION
         }
 
@@ -32,13 +32,14 @@ jobs:
 
     - name: Extract URLs
       run: |
-        Get-Content $env:TOPAZ_VERSION\logfile.txt | Select-String -Pattern 'http://models.topazlabs.com/v1/' | ForEach-Object {
-          $_ -replace '1: Log: \[1\] 2: Setting up download from http', 'https' } | Out-File -FilePath $env:TOPAZ_VERSION\models.txt
+        Get-Content $env:TOPAZ_VERSION\logfile.txt | Select-String -Pattern 'Setting up download from http://models.topazlabs.com/v1/' | ForEach-Object {
+          $_.Matches.Value -replace 'http', 'https' } | Out-File -FilePath $env:TOPAZ_VERSION\models.txt
 
     - name: Generate README.md
       run: |
-        # Read the template content
-        $templateContent = Get-Content README_TEMPLATE.md -Raw
+        # Read the template content if README.md exists, otherwise create a new one
+        $templatePath = if (Test-Path "README.md") { "README.md" } else { "README_TEMPLATE.md" }
+        $templateContent = Get-Content $templatePath -Raw
     
         # Replace placeholders with actual content
         $templateContent = $templateContent -replace 'TOPAZ_VERSION', $env:TOPAZ_VERSION
@@ -60,6 +61,7 @@ jobs:
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add README.md models.txt
+        git add README.md
+        git add $env:TOPAZ_VERSION\models.txt
         git commit -m "Add latest models for Win"
         git push

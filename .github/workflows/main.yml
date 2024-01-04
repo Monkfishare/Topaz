@@ -59,7 +59,7 @@ jobs:
           $templateContent = $templateContent -replace 'BILIBILI_TUTORIAL_LINK', "https://www.bilibili.com/read/cv25993828"
           $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"
       
-          # Add models table content without hash values
+          # Add models table content with auto-generated sequential numbering
           $modelsTableContent = $modelsContent | ForEach-Object { 
             $line = $_.ReadCount
             "| $line | $_ |`n" 

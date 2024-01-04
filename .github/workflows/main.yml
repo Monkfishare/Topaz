@@ -37,6 +37,10 @@ jobs:
       with:
         python-version: 3.x
 
+    - name: Install Python Dependencies
+      run: |
+        pip install -r requirements.txt
+
     - name: Execute Python Script
       run: |
         python main.py

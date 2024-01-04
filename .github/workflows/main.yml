@@ -65,6 +65,10 @@ jobs:
             "| $lineNumber | $_ |`n"
             $lineNumber++
           }
+      
+          # Join the lines to form a single row in the table
+          $modelsTableContent = $modelsTableContent -join ''
+      
           $templateContent = $templateContent -replace 'MODELS_TABLE_CONTENT', $modelsTableContent
       
           # Save the generated content to README.md

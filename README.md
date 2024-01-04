@@ -8,311 +8,311 @@
 ### Models
 | Num | Models |
 | --- | ------ |
-| 1 | https://models.topazlabs.com/v1/WhiteBalanceData-v2.bin
-https://models.topazlabs.com/v1/apnb-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp16-512x512-1x-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/clc-v1-fp32-512x512-1x-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v2-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/clc-v3-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/clc-v3-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/drw_native-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/drw_native-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/drw_standard-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz2
-https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ox.tz2
-https://models.topazlabs.com/v1/expog-v1-fp32-512x512-1x-ox.tz2
-https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-4x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz
-https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz2
-https://models.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz2
-https://models.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fix-fp16-128x128-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fix-fp16-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fix-fp16-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-1x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-2x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-4x-ov.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/ggn_ap-v1-fp32-192x192-ov.tz2
-https://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz2
-https://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-1x-ov.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-1x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/ghq-v2-fp32-128x128-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-1x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-1x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-2x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-4x-ov.tz2
-https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-4x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-1x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-2x-ox.tz2
-https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-4x-ox.tz2
-https://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/isoa-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/isoa-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/isoa-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/isoa-v2-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/isob-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
-https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
-https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ox.tz
-https://models.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
-https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
-https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ox.tz
-https://models.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
-https://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sdi_dec-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sdi_embed0.bin
-https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sdi_enc-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-512x512-2x-ov.tz2
-https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-512x512-2x-ox.tz2
-https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2
-https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ox.tz2
-https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ort.tz2
-https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ov.tz2
-https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ox.tz2
-https://models.topazlabs.com/v1/sdi_unet-v2-fp32-64x64-ov.tz2
-https://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp16-256x256-ov.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp16-256x256-ox.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp32-256x256-ov.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp32-256x256-ox.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v2-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp_ap-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp_ap-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp_ap-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp_ap-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/slsp_ap-v2-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2
-https://models.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2
-https://models.topazlabs.com/v1/sstd-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstd-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstd-v3-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v3-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstd-v3-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstd-v3-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz2
-https://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz2
-https://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz2
-https://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2
-https://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz2
-https://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2
-https://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz2
-https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
-https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2
-https://models.topazlabs.com/v1/wbc-v1-fp32-128x128-ox.tz2
-https://models.topazlabs.com/v1/wbc-v2-fp16-512x512-ox.tz2
-https://models.topazlabs.com/v1/wbc-v2-fp32-512x512-ov.tz2
-https://models.topazlabs.com/v1/wbc-v2-fp32-512x512-ox.tz2 |
+1 | https://models.topazlabs.com/v1/WhiteBalanceData-v2.bin
+2 | https://models.topazlabs.com/v1/apnb-v1-fp32-512x512-ov.tz2
+3 | https://models.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2
+4 | https://models.topazlabs.com/v1/clc-v1-fp16-192x192-1x-ov.tz2
+5 | https://models.topazlabs.com/v1/clc-v1-fp16-192x192-4x-ov.tz2
+6 | https://models.topazlabs.com/v1/clc-v1-fp16-512x512-1x-ov.tz2
+7 | https://models.topazlabs.com/v1/clc-v1-fp16-512x512-ov.tz2
+8 | https://models.topazlabs.com/v1/clc-v1-fp16-512x512-ox.tz2
+9 | https://models.topazlabs.com/v1/clc-v1-fp32-512x512-1x-ov.tz2
+10 | https://models.topazlabs.com/v1/clc-v1-fp32-512x512-ov.tz2
+11 | https://models.topazlabs.com/v1/clc-v1-fp32-512x512-ox.tz2
+12 | https://models.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz2
+13 | https://models.topazlabs.com/v1/clc-v2-fp16-512x512-ox.tz2
+14 | https://models.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2
+15 | https://models.topazlabs.com/v1/clc-v2-fp32-512x512-ox.tz2
+16 | https://models.topazlabs.com/v1/clc-v3-fp16-512x512-ov.tz2
+17 | https://models.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz2
+18 | https://models.topazlabs.com/v1/clc-v3-fp32-512x512-ov.tz2
+19 | https://models.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz2
+20 | https://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz2
+21 | https://models.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ox.tz2
+22 | https://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz2
+23 | https://models.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz2
+24 | https://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ov.tz2
+25 | https://models.topazlabs.com/v1/draw_linear-v1-fp16-512x512-ox.tz2
+26 | https://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ov.tz2
+27 | https://models.topazlabs.com/v1/draw_linear-v1-fp32-512x512-ox.tz2
+28 | https://models.topazlabs.com/v1/drw_native-v1-fp16-512x512-ov.tz2
+29 | https://models.topazlabs.com/v1/drw_native-v1-fp32-512x512-ox.tz2
+30 | https://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ov.tz2
+31 | https://models.topazlabs.com/v1/drw_standard-v1-fp16-512x512-ox.tz2
+32 | https://models.topazlabs.com/v1/drw_standard-v1-fp32-512x512-ox.tz2
+33 | https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz2
+34 | https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ox.tz2
+35 | https://models.topazlabs.com/v1/expog-v1-fp32-512x512-1x-ox.tz2
+36 | https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz2
+37 | https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ox.tz2
+38 | https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-1x-ov.tz2
+39 | https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz2
+40 | https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz2
+41 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-1x-ov.tz2
+42 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-1x-ox.tz2
+43 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ov.tz2
+44 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ox.tz2
+45 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ov.tz2
+46 | https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ox.tz2
+47 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-1x-ov.tz2
+48 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-1x-ox.tz2
+49 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-2x-ov.tz2
+50 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-2x-ox.tz2
+51 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-4x-ov.tz2
+52 | https://models.topazlabs.com/v1/gclc-v1-fp16-256x256-4x-ox.tz2
+53 | https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-1x-ov.tz2
+54 | https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-2x-ov.tz2
+55 | https://models.topazlabs.com/v1/gclc-v1-fp16-96x96-4x-ov.tz2
+56 | https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-1x-ox.tz2
+57 | https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-2x-ox.tz2
+58 | https://models.topazlabs.com/v1/gclc-v1-fp32-128x128-4x-ox.tz2
+59 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-1x-ov.tz2
+60 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-1x-ox.tz2
+61 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ov.tz2
+62 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-2x-ox.tz2
+63 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz2
+64 | https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz2
+65 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-1x-ov.tz2
+66 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-1x-ox.tz2
+67 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-2x-ov.tz2
+68 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-2x-ox.tz2
+69 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-4x-ov.tz2
+70 | https://models.topazlabs.com/v1/gclc-v1-fp32-256x256-4x-ox.tz2
+71 | https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-1x-ox.tz2
+72 | https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz2
+73 | https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz2
+74 | https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz
+75 | https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov.tz2
+76 | https://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz2
+77 | https://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz2
+78 | https://models.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz2
+79 | https://models.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz2
+80 | https://models.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz2
+81 | https://models.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2
+82 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-1x-ov.tz2
+83 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-1x-ox.tz2
+84 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz2
+85 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ox.tz2
+86 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz2
+87 | https://models.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ox.tz2
+88 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-1x-ov.tz2
+89 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-1x-ox.tz2
+90 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-2x-ov.tz2
+91 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-2x-ox.tz2
+92 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-4x-ov.tz2
+93 | https://models.topazlabs.com/v1/ggi-v1-fp16-256x256-4x-ox.tz2
+94 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-1x-ov.tz2
+95 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-1x-ox.tz2
+96 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2
+97 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ox.tz2
+98 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ov.tz2
+99 | https://models.topazlabs.com/v1/ggi-v1-fp32-192x192-4x-ox.tz2
+100 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-1x-ov.tz2
+101 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-1x-ox.tz2
+102 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-2x-ov.tz2
+103 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-2x-ox.tz2
+104 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-4x-ov.tz2
+105 | https://models.topazlabs.com/v1/ggi-v1-fp32-256x256-4x-ox.tz2
+106 | https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-1x-ox.tz2
+107 | https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-2x-ox.tz2
+108 | https://models.topazlabs.com/v1/ggi-v2-fp16-192x192-4x-ox.tz2
+109 | https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-1x-ox.tz2
+110 | https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-2x-ox.tz2
+111 | https://models.topazlabs.com/v1/ggi-v2-fp16-256x256-4x-ox.tz2
+112 | https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-1x-ox.tz2
+113 | https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-2x-ox.tz2
+114 | https://models.topazlabs.com/v1/ggi-v2-fp32-192x192-4x-ox.tz2
+115 | https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-1x-ox.tz2
+116 | https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-2x-ox.tz2
+117 | https://models.topazlabs.com/v1/ggi-v2-fp32-256x256-4x-ox.tz2
+118 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-1x-ov.tz2
+119 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-1x-ox.tz2
+120 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-2x-ov.tz2
+121 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-2x-ox.tz2
+122 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-4x-ov.tz2
+123 | https://models.topazlabs.com/v1/ggn-v1-fp16-192x192-4x-ox.tz2
+124 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-1x-ov.tz2
+125 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-1x-ox.tz2
+126 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-2x-ov.tz2
+127 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-2x-ox.tz2
+128 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-4x-ov.tz2
+129 | https://models.topazlabs.com/v1/ggn-v1-fp16-256x256-4x-ox.tz2
+130 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-1x-ov.tz2
+131 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-1x-ox.tz2
+132 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-2x-ov.tz2
+133 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-2x-ox.tz2
+134 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-4x-ov.tz2
+135 | https://models.topazlabs.com/v1/ggn-v1-fp32-192x192-4x-ox.tz2
+136 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-1x-ov.tz2
+137 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-1x-ox.tz2
+138 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-2x-ov.tz2
+139 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-2x-ox.tz2
+140 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-4x-ov.tz2
+141 | https://models.topazlabs.com/v1/ggn-v1-fp32-256x256-4x-ox.tz2
+142 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-1x-ov.tz2
+143 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-1x-ox.tz2
+144 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-2x-ov.tz2
+145 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-2x-ox.tz2
+146 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-4x-ov.tz2
+147 | https://models.topazlabs.com/v1/ggn-v2-fp16-192x192-4x-ox.tz2
+148 | https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-1x-ox.tz2
+149 | https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-2x-ox.tz2
+150 | https://models.topazlabs.com/v1/ggn-v2-fp32-192x192-4x-ox.tz2
+151 | https://models.topazlabs.com/v1/ggn-v3-fix-fp16-128x128-2x-ox.tz2
+152 | https://models.topazlabs.com/v1/ggn-v3-fix-fp16-96x96-1x-ox.tz2
+153 | https://models.topazlabs.com/v1/ggn-v3-fix-fp16-96x96-2x-ox.tz2
+154 | https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz2
+155 | https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz2
+156 | https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ox.tz2
+157 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-1x-ov.tz2
+158 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-1x-ox.tz2
+159 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-2x-ov.tz2
+160 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-2x-ox.tz2
+161 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-4x-ov.tz2
+162 | https://models.topazlabs.com/v1/ggn-v3-fp16-96x96-4x-ox.tz2
+163 | https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-1x-ox.tz2
+164 | https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-2x-ox.tz2
+165 | https://models.topazlabs.com/v1/ggn-v3-fp32-192x192-4x-ox.tz2
+166 | https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-1x-ox.tz2
+167 | https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-2x-ox.tz2
+168 | https://models.topazlabs.com/v1/ggn-v3-fp32-96x96-4x-ox.tz2
+169 | https://models.topazlabs.com/v1/ggn_ap-v1-fp32-192x192-ov.tz2
+170 | https://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz2
+171 | https://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-1x-ox.tz2
+172 | https://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-2x-ox.tz2
+173 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-1x-ov.tz2
+174 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-1x-ox.tz2
+175 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz2
+176 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ox.tz2
+177 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz2
+178 | https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ox.tz2
+179 | https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-1x-ox.tz2
+180 | https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-2x-ox.tz2
+181 | https://models.topazlabs.com/v1/ghq-v1-fp32-96x96-4x-ox.tz2
+182 | https://models.topazlabs.com/v1/ghq-v2-fp32-128x128-4x-ox.tz2
+183 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-1x-ov.tz2
+184 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-1x-ox.tz2
+185 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ov.tz2
+186 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ox.tz2
+187 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ov.tz2
+188 | https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ox.tz2
+189 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-1x-ov.tz2
+190 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-1x-ox.tz2
+191 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-2x-ov.tz2
+192 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-2x-ox.tz2
+193 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-4x-ov.tz2
+194 | https://models.topazlabs.com/v1/gmp-v1-fp16-256x256-4x-ox.tz2
+195 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-1x-ov.tz2
+196 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-1x-ox.tz2
+197 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz2
+198 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ox.tz2
+199 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz2
+200 | https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ox.tz2
+201 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-1x-ov.tz2
+202 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-1x-ox.tz2
+203 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-2x-ov.tz2
+204 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-2x-ox.tz2
+205 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-4x-ov.tz2
+206 | https://models.topazlabs.com/v1/gmp-v1-fp32-256x256-4x-ox.tz2
+207 | https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-1x-ox.tz2
+208 | https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-2x-ox.tz2
+209 | https://models.topazlabs.com/v1/gmp-v2-fp16-192x192-4x-ox.tz2
+210 | https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-1x-ox.tz2
+211 | https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-2x-ox.tz2
+212 | https://models.topazlabs.com/v1/gmp-v2-fp16-256x256-4x-ox.tz2
+213 | https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-1x-ox.tz2
+214 | https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-2x-ox.tz2
+215 | https://models.topazlabs.com/v1/gmp-v2-fp32-192x192-4x-ox.tz2
+216 | https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-1x-ox.tz2
+217 | https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-2x-ox.tz2
+218 | https://models.topazlabs.com/v1/gmp-v2-fp32-256x256-4x-ox.tz2
+219 | https://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ov.tz2
+220 | https://models.topazlabs.com/v1/isoa-v1-fp16-512x512-ox.tz2
+221 | https://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz2
+222 | https://models.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz2
+223 | https://models.topazlabs.com/v1/isoa-v2-fp16-512x512-ov.tz2
+224 | https://models.topazlabs.com/v1/isoa-v2-fp16-512x512-ox.tz2
+225 | https://models.topazlabs.com/v1/isoa-v2-fp32-512x512-ov.tz2
+226 | https://models.topazlabs.com/v1/isoa-v2-fp32-512x512-ox.tz2
+227 | https://models.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz2
+228 | https://models.topazlabs.com/v1/isob-v1-fp16-512x512-ox.tz2
+229 | https://models.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz2
+230 | https://models.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz2
+231 | https://models.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
+232 | https://models.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
+233 | https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
+234 | https://models.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ox.tz
+235 | https://models.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
+236 | https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
+237 | https://models.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ox.tz
+238 | https://models.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
+239 | https://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
+240 | https://models.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
+241 | https://models.topazlabs.com/v1/sdi_dec-v2-fp32-512x512-ov.tz2
+242 | https://models.topazlabs.com/v1/sdi_embed0.bin
+243 | https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2
+244 | https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz2
+245 | https://models.topazlabs.com/v1/sdi_enc-v2-fp32-512x512-ov.tz2
+246 | https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-512x512-2x-ov.tz2
+247 | https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-512x512-2x-ox.tz2
+248 | https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2
+249 | https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ox.tz2
+250 | https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ort.tz2
+251 | https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ov.tz2
+252 | https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ox.tz2
+253 | https://models.topazlabs.com/v1/sdi_unet-v2-fp32-64x64-ov.tz2
+254 | https://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz2
+255 | https://models.topazlabs.com/v1/slsp-v1-fp16-256x256-ov.tz2
+256 | https://models.topazlabs.com/v1/slsp-v1-fp16-256x256-ox.tz2
+257 | https://models.topazlabs.com/v1/slsp-v1-fp16-512x512-ov.tz2
+258 | https://models.topazlabs.com/v1/slsp-v1-fp16-512x512-ox.tz2
+259 | https://models.topazlabs.com/v1/slsp-v1-fp32-256x256-ov.tz2
+260 | https://models.topazlabs.com/v1/slsp-v1-fp32-256x256-ox.tz2
+261 | https://models.topazlabs.com/v1/slsp-v1-fp32-512x512-ov.tz2
+262 | https://models.topazlabs.com/v1/slsp-v1-fp32-512x512-ox.tz2
+263 | https://models.topazlabs.com/v1/slsp-v2-fp16-512x512-ov.tz2
+264 | https://models.topazlabs.com/v1/slsp-v2-fp16-512x512-ox.tz2
+265 | https://models.topazlabs.com/v1/slsp-v2-fp32-512x512-ov.tz2
+266 | https://models.topazlabs.com/v1/slsp-v2-fp32-512x512-ox.tz2
+267 | https://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz2
+268 | https://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ox.tz2
+269 | https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2
+270 | https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2
+271 | https://models.topazlabs.com/v1/slsp_ap-v1-fp16-512x512-ov.tz2
+272 | https://models.topazlabs.com/v1/slsp_ap-v1-fp32-512x512-ov.tz2
+273 | https://models.topazlabs.com/v1/slsp_ap-v2-fp16-512x512-ov.tz2
+274 | https://models.topazlabs.com/v1/slsp_ap-v2-fp32-512x512-ov.tz2
+275 | https://models.topazlabs.com/v1/slsp_ap-v2-fp32-512x512-ox.tz2
+276 | https://models.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2
+277 | https://models.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2
+278 | https://models.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2
+279 | https://models.topazlabs.com/v1/sstd-v1-fp16-512x512-ov.tz2
+280 | https://models.topazlabs.com/v1/sstd-v1-fp16-512x512-ox.tz2
+281 | https://models.topazlabs.com/v1/sstd-v1-fp32-512x512-ov.tz2
+282 | https://models.topazlabs.com/v1/sstd-v1-fp32-512x512-ox.tz2
+283 | https://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
+284 | https://models.topazlabs.com/v1/sstd-v2-fp16-512x512-ox.tz2
+285 | https://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
+286 | https://models.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2
+287 | https://models.topazlabs.com/v1/sstd-v3-fp16-512x512-ov.tz2
+288 | https://models.topazlabs.com/v1/sstd-v3-fp16-512x512-ox.tz2
+289 | https://models.topazlabs.com/v1/sstd-v3-fp32-512x512-ov.tz2
+290 | https://models.topazlabs.com/v1/sstd-v3-fp32-512x512-ox.tz2
+291 | https://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz2
+292 | https://models.topazlabs.com/v1/sstg-v1-fp16-512x512-ox.tz2
+293 | https://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz2
+294 | https://models.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz2
+295 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz2
+296 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz2
+297 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2
+298 | https://models.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz2
+299 | https://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2
+300 | https://models.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz2
+301 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
+302 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2
+303 | https://models.topazlabs.com/v1/wbc-v1-fp32-128x128-ox.tz2
+304 | https://models.topazlabs.com/v1/wbc-v2-fp16-512x512-ox.tz2
+305 | https://models.topazlabs.com/v1/wbc-v2-fp32-512x512-ov.tz2
+306 | https://models.topazlabs.com/v1/wbc-v2-fp32-512x512-ox.tz2
 
 

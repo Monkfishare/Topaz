@@ -47,23 +47,18 @@ jobs:
 
     - name: Generate README.md
       run: |
-        $modelsContent = Get-Content models.txt -Raw
-        $templateContent = Get-Content README_TEMPLATE.md -Raw
-
+        $templateContent = Get-Content template.md -Raw
         $templateContent = $templateContent -replace 'TOPAZ_VERSION', $env:TOPAZ_VERSION
         $templateContent = $templateContent -replace 'BILIBILI_TUTORIAL_LINK', "https://www.bilibili.com/read/cv25993828"
         $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"
 
-        $lineNumber = 1
-        $modelsTableContent = $modelsContent | ForEach-Object { 
-          "| $lineNumber | $_ |`n"
-          $lineNumber++
-        }
+        $modelsTableContent = Get-Content models.txt | ForEach-Object {
+          $num = $_.ReadCount # Using ReadCount as the sequential number
+          "$num | $_"
+        } | Out-String
 
-        $modelsTableContent = $modelsTableContent -join ''
         $templateContent = $templateContent -replace 'MODELS_TABLE_CONTENT', $modelsTableContent
-
-        $templateContent | Out-File -FilePath README.md -Encoding utf8
+        $templateContent | Out-File -FilePath README.md
 
     - name: Commit and Push Changes
       run: |

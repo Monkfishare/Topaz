@@ -16,33 +16,27 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Check if Folder Exists
-      run: |
-        if (-Not (Test-Path -Path $env:TOPAZ_VERSION)) {
-          mkdir $env:TOPAZ_VERSION
-        }
-
     - name: Download Topaz Photo AI MSI
       run: |
-        Invoke-WebRequest -Uri "https://downloads.topazlabs.com/deploy/TopazPhotoAI/$env:TOPAZ_VERSION/TopazPhotoAI-$env:TOPAZ_VERSION.msi" -OutFile "$env:TOPAZ_VERSION\TopazPhotoAI-$env:TOPAZ_VERSION.msi"
+        Invoke-WebRequest -Uri "https://downloads.topazlabs.com/deploy/TopazPhotoAI/$env:TOPAZ_VERSION/TopazPhotoAI-$env:TOPAZ_VERSION.msi" -OutFile "TopazPhotoAI-$env:TOPAZ_VERSION.msi"
 
     - name: Install Topaz Photo AI
       run: |
-        Start-Process msiexec.exe -Wait -ArgumentList "/i $env:TOPAZ_VERSION\TopazPhotoAI-$env:TOPAZ_VERSION.msi /qn /l*v $env:TOPAZ_VERSION\logfile.txt"
+        Start-Process msiexec.exe -Wait -ArgumentList "/i TopazPhotoAI-$env:TOPAZ_VERSION.msi /qn /l*v logfile.txt"
 
     - name: Extract URLs
       run: |
-        Get-Content $env:TOPAZ_VERSION\logfile.txt | Select-String -Pattern 'http://models.topazlabs.com/v1/' | ForEach-Object {
+        Get-Content logfile.txt | Select-String -Pattern 'http://models.topazlabs.com/v1/' | ForEach-Object {
           $cleanedLink = $_ -replace '1: Log: \[1\] 2: Setting up download from http', 'https'
           $cleanedLink = $cleanedLink -replace '\s+$' # Remove trailing spaces
           $cleanedLink
-        } | Out-File -FilePath $env:TOPAZ_VERSION\models.txt
+        } | Out-File -FilePath models.txt
 
     - name: Generate README.md
       run: |
         # Read the template content if README.md exists, otherwise create a new one
         $templatePath = if (Test-Path "README.md") { "README.md" } else { "README_TEMPLATE.md" }
-        $templateContent = Get-Content README_TEMPLATE.md -Raw
+        $templateContent = Get-Content $templatePath -Raw
     
         # Replace placeholders with actual content
         $templateContent = $templateContent -replace 'TOPAZ_VERSION', $env:TOPAZ_VERSION
@@ -50,7 +44,7 @@ jobs:
         $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"
     
         # Add models table content without hash values
-        $models = Get-Content $env:TOPAZ_VERSION\models.txt
+        $models = Get-Content models.txt
         $modelsTableContent = $models | ForEach-Object { 
           $line = $_.ReadCount
           "| $line | $_ |`n" 
@@ -65,6 +59,6 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git add README.md
-        git add $env:TOPAZ_VERSION\models.txt
-        git commit -m "Add latest models for Win"
+        git add models.txt
+        git commit -m "Add models-$env:TOPAZ_VERSION for Win"
         git push

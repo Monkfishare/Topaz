@@ -32,6 +32,15 @@ jobs:
           $cleanedLink
         } | Out-File -FilePath models.txt
 
+    - name: Run Python Script
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Execute Python Script
+      run: |
+        python main.py
+
     - name: Generate README.md
       run: |
         # Read the template content if README.md exists, otherwise create a new one
@@ -60,5 +69,5 @@ jobs:
         git config --local user.name "GitHub Actions"
         git add README.md
         git add models.txt
-        git commit -m "Add models-$env:TOPAZ_VERSION for Win"
+        git commit -m git commit -m "Add models-$env:TOPAZ_VERSION for Win"
         git push

@@ -68,7 +68,7 @@ jobs:
           $templateContent = $templateContent -replace 'MODELS_TABLE_CONTENT', $modelsTableContent
       
           # Save the generated content to README.md
-          $templateContent | Out-File -FilePath README.md
+          $templateContent | Out-File -FilePath README.md -Encoding utf8
 
       - name: Commit and Push Changes
         run: |

@@ -47,7 +47,7 @@ jobs:
 
     - name: Generate README.md
       run: |
-        $templateContent = Get-Content template.md -Raw
+        $templateContent = Get-Content README_TEMPLATE.md -Raw
         $templateContent = $templateContent -replace 'TOPAZ_VERSION', $env:TOPAZ_VERSION
         $templateContent = $templateContent -replace 'BILIBILI_TUTORIAL_LINK', "https://www.bilibili.com/read/cv25993828"
         $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"

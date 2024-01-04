@@ -16,6 +16,9 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
+    - name: Pull latest changes
+      run: git pull origin main
+
     - name: Download Topaz Photo AI MSI
       run: |
         Invoke-WebRequest -Uri "https://downloads.topazlabs.com/deploy/TopazPhotoAI/$env:TOPAZ_VERSION/TopazPhotoAI-$env:TOPAZ_VERSION.msi" -OutFile "TopazPhotoAI-$env:TOPAZ_VERSION.msi"

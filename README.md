@@ -61,3 +61,4 @@
  | 51 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2 |
 
 
+

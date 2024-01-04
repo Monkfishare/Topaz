@@ -33,7 +33,10 @@ jobs:
     - name: Extract URLs
       run: |
         Get-Content $env:TOPAZ_VERSION\logfile.txt | Select-String -Pattern 'http://models.topazlabs.com/v1/' | ForEach-Object {
-          $_ -replace '1: Log: \[1\] 2: Setting up download from http', 'https' } | Out-File -FilePath $env:TOPAZ_VERSION\models.txt
+          $cleanedLink = $_ -replace '1: Log: \[1\] 2: Setting up download from http', 'https'
+          $cleanedLink = $cleanedLink -replace '\s+$' # Remove trailing spaces
+          $cleanedLink
+        } | Out-File -FilePath $env:TOPAZ_VERSION\models.txt
 
     - name: Generate README.md
       run: |

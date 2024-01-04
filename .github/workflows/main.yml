@@ -60,9 +60,10 @@ jobs:
           $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"
       
           # Add models table content with auto-generated sequential numbering
+          $lineNumber = 1
           $modelsTableContent = $modelsContent | ForEach-Object { 
-            $line = $_.ReadCount
-            "| $line | $_ |`n" 
+            "| $lineNumber | $_ |`n"
+            $lineNumber++
           }
           $templateContent = $templateContent -replace 'MODELS_TABLE_CONTENT', $modelsTableContent
       

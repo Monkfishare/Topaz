@@ -15,7 +15,7 @@ def main():
         models = models_file.read().splitlines()
 
     # Fetch accessible URLs from an external source
-    accessible_urls_url = "https://raw.githubusercontent.com/Monkfishare/test/main/accessible_urls.txt"
+    accessible_urls_url = "https://raw.githubusercontent.com/Monkfishare/test/main/models.txt"
     accessible_urls = fetch_urls(accessible_urls_url)
 
     # Filter URLs based on criteria (contain "tz2", "samdec", or "samenc")

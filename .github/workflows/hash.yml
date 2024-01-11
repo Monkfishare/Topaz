@@ -18,6 +18,9 @@ jobs:
       with:
         python-version: 3.x
 
+    - name: Pull latest changes
+      run: git pull
+
     - name: Download and Analyze Hashes
       run: |
         # Assuming models.txt is present in the repository

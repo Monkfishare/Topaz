@@ -18,7 +18,9 @@ https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ov.tz2
 https://models.topazlabs.com/v1/expog-v1-fp16-512x512-1x-ox.tz2
 https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ov.tz2
 https://models.topazlabs.com/v1/expoi-v1-fp32-256x256-1x-ox.tz2
+https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz
 https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-2x-ov.tz2
+https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz
 https://models.topazlabs.com/v1/gclc-v1-fp16-128x128-4x-ov.tz2
 https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-2x-ov.tz2
 https://models.topazlabs.com/v1/gclc-v1-fp16-192x192-4x-ov.tz2
@@ -32,7 +34,7 @@ https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz2
 https://models.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz2
 https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz2
 https://models.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz2
-https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz
+https://models.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz2
 https://models.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz2
 https://models.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz2
 https://models.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz2
@@ -50,10 +52,16 @@ https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-2x-ov.tz2
 https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ov.tz2
 https://models.topazlabs.com/v1/ggn-v3-fp16-128x128-4x-ox.tz2
 https://models.topazlabs.com/v1/ggn_ap-v2-fp16-128x128-ov.tz2
+https://models.topazlabs.com/v1/ggnv2-v3-fp16-128x128-2x-ov.tz
+https://models.topazlabs.com/v1/ggnv2-v3-fp16-128x128-4x-ov.tz
 https://models.topazlabs.com/v1/ghq-v1-fix-fp16-96x96-2x-ox.tz2
 https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-2x-ov.tz2
 https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ov.tz2
 https://models.topazlabs.com/v1/ghq-v1-fp16-96x96-4x-ox.tz2
+https://models.topazlabs.com/v1/ghqv2-v1-fp16-128x128-2x-ov.tz
+https://models.topazlabs.com/v1/ghqv2-v1-fp16-128x128-4x-ov.tz
+https://models.topazlabs.com/v1/ghqv2_ldn-v1-fp16-128x128-2x-ov.tz
+https://models.topazlabs.com/v1/ghqv2_ldn-v1-fp16-128x128-4x-ov.tz
 https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-2x-ov.tz2
 https://models.topazlabs.com/v1/gmp-v1-fp16-192x192-4x-ov.tz2
 https://models.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz2
@@ -78,8 +86,8 @@ https://models.topazlabs.com/v1/sdi_embed0.bin
 https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2
 https://models.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz2
 https://models.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2
-https://models.topazlabs.com/v1/sdi_unet-v2-fp16-64x64-ort.tz2
-https://models.topazlabs.com/v1/sdi_unet-v3-fp16-64x64-ov.tz2
+https://models.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ort.tz2
+https://models.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ov.tz2
 https://models.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz2
 https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2
 https://models.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2

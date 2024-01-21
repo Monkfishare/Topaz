@@ -13,14 +13,6 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.x
-
-    - name: Pull latest changes
-      run: git pull
-
     - name: Download and Analyze Hashes
       run: |
         # Assuming models.txt is present in the repository
@@ -46,6 +38,7 @@ jobs:
 
     - name: Add and Commit Changes
       run: |
+        git pull
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
         git add hash_md5.txt

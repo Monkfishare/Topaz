@@ -1,4 +1,4 @@
-name: Install Topaz Photo AI
+name: Topaz Photo AI models
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  install_topaz:
-    runs-on: windows-latest
+  update_README:
+    runs-on: ubuntu-latest
 
     env:
       TOPAZ_VERSION: '2.3.1'
@@ -16,58 +16,33 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Pull latest changes
-      run: git pull origin main
-
-    - name: Download Topaz Photo AI MSI
-      run: |
-        Invoke-WebRequest -Uri "https://downloads.topazlabs.com/deploy/TopazPhotoAI/$env:TOPAZ_VERSION/TopazPhotoAI-$env:TOPAZ_VERSION.msi" -OutFile "TopazPhotoAI-$env:TOPAZ_VERSION.msi"
-
-    - name: Install Topaz Photo AI
-      run: |
-        Start-Process msiexec.exe -Wait -ArgumentList "/i TopazPhotoAI-$env:TOPAZ_VERSION.msi /qn /l*v logfile.txt"
-
-    - name: Extract URLs
-      run: |
-        Get-Content logfile.txt | Select-String -Pattern 'http://models.topazlabs.com/v1/' | ForEach-Object {
-          $cleanedLink = $_ -replace '1: Log: \[1\] 2: Setting up download from http', 'https'
-          $cleanedLink = $cleanedLink -replace '\s+$' # Remove trailing spaces
-          $cleanedLink
-        } | Out-File -FilePath models.txt
-
-    - name: Run Python Script
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.x
-
-    - name: Install Python Dependencies
-      run: |
-        pip install -r requirements.txt
-
-    - name: Execute Python Script
-      run: |
-        python main.py
-
     - name: Generate README.md
       run: |
-        $templateContent = Get-Content README_TEMPLATE.md -Raw
-        $templateContent = $templateContent -replace 'TOPAZ_VERSION', $env:TOPAZ_VERSION
-        $templateContent = $templateContent -replace 'BILIBILI_TUTORIAL_LINK', "https://www.bilibili.com/read/cv25993828"
-        $templateContent = $templateContent -replace 'ARCHIVED_TUTORIAL_LINK', "https://archive.ph/HfQIm"
+        templateContent=$(cat README_TEMPLATE.md)
+        templateContent=${templateContent//TOPAZ_VERSION/$TOPAZ_VERSION}
+        templateContent=${templateContent//BILIBILI_TUTORIAL_LINK/https:\/\/www.bilibili.com\/read\/cv25993828}
+        templateContent=${templateContent//ARCHIVED_TUTORIAL_LINK/https:\/\/archive.ph\/HfQIm}
 
-        $modelsTableContent = Get-Content models.txt | ForEach-Object {
-          $num = $_.ReadCount # Using ReadCount as the sequential number
-          "$num | $_"
-        } | Out-String
+        modelsTableContent=$(awk '{print NR, "|", $0}' models.txt)
 
-        $templateContent = $templateContent -replace 'MODELS_TABLE_CONTENT', $modelsTableContent
-        $templateContent | Out-File -FilePath README.md
+        sed -i '/^$/d' models.txt
+        tr -d '\r' < models.txt > models_unix.txt
+        mv models_unix.txt models.txt
+        totalUrlNumber=$(($(wc -l < models.txt) + 1))
+
+
+        modelsCopyButton="$modelsTableContent"
+
+        templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
+        templateContent=${templateContent//MODELS_COPY_CONTENT/$modelsCopyButton}
+        templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}
+
+        echo "$templateContent" > README.md
 
     - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git add README.md
-        git add models.txt
-        git commit -m "Add models-$env:TOPAZ_VERSION for Win"
+        git commit -m "Add models-$TOPAZ_VERSION for Win"
         git push

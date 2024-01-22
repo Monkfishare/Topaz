@@ -5,7 +5,7 @@
 - [Bilibili](https://www.bilibili.com/read/cv25993828)
 - [Archived](https://archive.ph/HfQIm)
 
-### [Models](https://github.com/Monkfishare/C?tab=readme-ov-file#click-to-copy)
+### [Models](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#click-to-copy)
 | Num | Models (118) |
 | --- | -------------------------- |
 1 | https://models.topazlabs.com/v1/WhiteBalanceData-v2.bin

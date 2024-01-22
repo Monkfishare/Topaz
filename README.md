@@ -2,8 +2,7 @@
 ## Version: [2.3.1](https://downloads.topazlabs.com/deploy/TopazPhotoAI/2.3.1/TopazPhotoAI-2.3.1.msi) (Windows)
 
 ### Tutorials
-- [Bilibili](https://www.bilibili.com/read/cv25993828)
-- [Archived](https://archive.ph/HfQIm)
+- [Bilibili](https://www.bilibili.com/read/cv25993828)  ([Archived](https://archive.ph/HfQIm))
 
 ### [Models](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#click-to-copy)
 | Num | Models (118) |
@@ -127,7 +126,7 @@
 117 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
 118 | https://models.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2
 
-### Click to copy
+### [Click to copy](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#topaz-photo-ai-models)
 <details id="copySection">
   <summary>Copy</summary>
   <p id="copyContent">

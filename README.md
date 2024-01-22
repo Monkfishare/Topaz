@@ -2,6 +2,7 @@
 ## Version: [2.3.1](https://downloads.topazlabs.com/deploy/TopazPhotoAI/2.3.1/TopazPhotoAI-2.3.1.msi) (Windows)
 
 ### Tutorials
+- [Topaz Tutorial](Topaz_tutorial.md)
 - [Bilibili](https://www.bilibili.com/read/cv25993828)  ([Archived](https://archive.ph/HfQIm))
 
 ### [Models](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#click-to-copy)

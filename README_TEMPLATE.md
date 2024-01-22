@@ -5,7 +5,7 @@
 - [Bilibili](BILIBILI_TUTORIAL_LINK)
 - [Archived](ARCHIVED_TUTORIAL_LINK)
 
-### [Models](https://github.com/Monkfishare/C?tab=readme-ov-file#click-to-copy)
+### [Models](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#click-to-copy)
 | Num | Models (TOTAL_URL_NUMBER) |
 | --- | -------------------------- |
 MODELS_TABLE_CONTENT

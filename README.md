@@ -1,5 +1,5 @@
 ## Topaz Photo AI models
-## Version: [2.3.1](https://downloads.topazlabs.com/deploy/TopazPhotoAI/2.3.1/TopazPhotoAI-2.3.1.msi) (Windows)
+## Version: [2.3.2](https://downloads.topazlabs.com/deploy/TopazPhotoAI/2.3.2/TopazPhotoAI-2.3.2.msi) (Windows)
 
 ### Tutorials
 - [Topaz Tutorial](Topaz_tutorial.md)

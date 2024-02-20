@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TOPAZ_VERSION: '2.3.2'
+      TOPAZ_VERSION: '2.4.0'
 
     steps:
     - name: Checkout Repository
@@ -30,11 +30,7 @@ jobs:
         mv models_unix.txt models.txt
         totalUrlNumber=$(($(wc -l < models.txt) + 1))
 
-
-        modelsCopyButton="$modelsTableContent"
-
         templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
-        templateContent=${templateContent//MODELS_COPY_CONTENT/$modelsCopyButton}
         templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}
 
         echo "$templateContent" > README.md

@@ -5,15 +5,7 @@
 - [Topaz Tutorial](Topaz_tutorial.md)
 - [Bilibili](BILIBILI_TUTORIAL_LINK)  ([Archived](ARCHIVED_TUTORIAL_LINK))
 
-### [Models](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#click-to-copy)
+### Models
 | Num | Models (TOTAL_URL_NUMBER) |
 | --- | -------------------------- |
 MODELS_TABLE_CONTENT
-
-### [Click to copy](https://github.com/Monkfishare/Topaz?tab=readme-ov-file#topaz-photo-ai-models)
-<details id="copySection">
-  <summary>Copy</summary>
-  <p id="copyContent">
-
-  ```plaintext
-MODELS_COPY_CONTENT

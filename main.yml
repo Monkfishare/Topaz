@@ -1,0 +1,44 @@
+name: Topaz Photo AI models
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_README:
+    runs-on: ubuntu-latest
+
+    env:
+      TOPAZ_VERSION: '3.0.4'
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Generate README.md
+      run: |
+        templateContent=$(cat README_TEMPLATE.md)
+        templateContent=${templateContent//TOPAZ_VERSION/$TOPAZ_VERSION}
+        templateContent=${templateContent//BILIBILI_TUTORIAL_LINK/https:\/\/www.bilibili.com\/read\/cv25993828}
+        templateContent=${templateContent//ARCHIVED_TUTORIAL_LINK/https:\/\/archive.ph\/HfQIm}
+
+        modelsTableContent=$(awk '{print NR, "|", $0}' models.txt)
+
+        sed -i '/^$/d' models.txt
+        tr -d '\r' < models.txt > models_unix.txt
+        mv models_unix.txt models.txt
+        totalUrlNumber=$(($(wc -l < models.txt) + 1))
+
+        templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
+        templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}
+
+        echo "$templateContent" > README.md
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add README.md
+        git commit -m "Add models-$TOPAZ_VERSION for Win"
+        git push

@@ -1,0 +1,46 @@
+name: Hash Analysis
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hash_analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Download and Analyze Hashes
+      run: |
+        # Assuming models.txt is present in the repository
+        urls=($(cat models.txt))
+
+        echo -n "" > hash_md5.txt
+
+        for url in "${urls[@]}"; do
+          filename=$(basename "$url")
+          wget "$url" -O "$filename"
+          md5_value=$(md5sum "$filename" | awk '{print $1}')
+          file_size=$(stat --printf="%s" "$filename")
+
+          # Format file_size as [numeric value] ([human-readable size])
+          formatted_size="${file_size} ($(numfmt --to=iec --suffix=B $file_size))"
+
+          # Output hash, filename, and formatted_size in the same line
+          echo "$md5_value  $filename  $formatted_size" >> hash_md5.txt
+
+          # Delete the downloaded file
+          rm -f "$filename"
+        done
+
+    - name: Add and Commit Changes
+      run: |
+        git pull
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add hash_md5.txt
+        git commit -m "Update MD5 hash file"
+        git push

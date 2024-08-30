@@ -1,0 +1,81 @@
+name: Topaz Photo AI Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_README:
+    runs-on: ubuntu-latest
+
+    env:
+      TOPAZ_VERSION: '3.2.0'
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Generate README.md
+      run: |
+        templateContent=$(cat README_TEMPLATE.md)
+        templateContent=${templateContent//TOPAZ_VERSION/$TOPAZ_VERSION}
+        templateContent=${templateContent//BILIBILI_TUTORIAL_LINK/https:\/\/www.bilibili.com\/read\/cv25993828}
+        templateContent=${templateContent//ARCHIVED_TUTORIAL_LINK/https:\/\/archive.ph\/HfQIm}
+
+        modelsTableContent=$(awk '{print NR, "|", $0}' models.txt)
+
+        sed -i '/^$/d' models.txt
+        tr -d '\r' < models.txt > models_unix.txt
+        mv models_unix.txt models.txt
+        totalUrlNumber=$(($(wc -l < models.txt) + 1))
+
+        templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
+        templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}
+
+        echo "$templateContent" > README.md
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add README.md
+        git commit -m "Add models-$TOPAZ_VERSION for Win"
+        git push
+
+  hash_analysis:
+    runs-on: ubuntu-latest
+
+    needs: update_README
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Download and Analyze Hashes
+      run: |
+        urls=($(cat models.txt))
+
+        echo -n "" > hash_md5.txt
+
+        for url in "${urls[@]}"; do
+          filename=$(basename "$url")
+          wget "$url" -O "$filename"
+          md5_value=$(md5sum "$filename" | awk '{print $1}')
+          file_size=$(stat --printf="%s" "$filename")
+
+          formatted_size="${file_size} ($(numfmt --to=iec --suffix=B $file_size))"
+
+          echo "$md5_value  $filename  $formatted_size" >> hash_md5.txt
+
+          rm -f "$filename"
+        done
+
+    - name: Add and Commit Changes
+      run: |
+        git pull
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add hash_md5.txt
+        git commit -m "Update MD5 hash file"
+        git push

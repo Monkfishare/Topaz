@@ -4,6 +4,7 @@ http://models-bal.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz2
+http://models-bal.topazlabs.com/v1/daclip-v1-fp32-224x224-1x-ov.tz
 http://models-bal.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz2
@@ -36,6 +37,8 @@ http://models-bal.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ov.tz2
 http://models-bal.topazlabs.com/v1/gclc-v1-fp32-192x192-4x-ox.tz2
 http://models-bal.topazlabs.com/v1/gclc-v1-fp32-96x96-2x-ox.tz2
 http://models-bal.topazlabs.com/v1/gclc-v1-fp32-96x96-4x-ox.tz2
+http://models-bal.topazlabs.com/v1/gendet-v1-fp32-256x256-1x-ov.tz
+http://models-bal.topazlabs.com/v1/gendet-v1-fp32-256x256-1x-ox.tz
 http://models-bal.topazlabs.com/v1/gfclc-v1-fp32-512x512-ov-11.tz2
 http://models-bal.topazlabs.com/v1/gffm-v1-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/gfg-v1-fp16-512x512-ov.tz2
@@ -88,8 +91,6 @@ http://models-bal.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
 http://models-bal.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
 http://models-bal.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
-http://models-bal.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
-http://models-bal.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
 http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/sdi_embed0.bin
@@ -122,5 +123,6 @@ http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2
 http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz2
 http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2
 http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz2
+http://models-bal.topazlabs.com/v1/txtdtx-v1-fp16-640x960-1x-ox.tz
 http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
 http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2

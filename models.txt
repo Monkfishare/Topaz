@@ -91,6 +91,8 @@ http://models-bal.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
 http://models-bal.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
 http://models-bal.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
+http://models-bal.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
+http://models-bal.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
 http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/sdi_embed0.bin

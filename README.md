@@ -1,12 +1,12 @@
 ## Topaz Photo AI models
-## Version: [3.2.1](https://downloads.topazlabs.com/deploy/TopazPhotoAI/3.2.1/TopazPhotoAI-3.2.1.msi) (Windows)
+## Version: [3.2.2](https://downloads.topazlabs.com/deploy/TopazPhotoAI/3.2.2/TopazPhotoAI-3.2.2.msi) (Windows)
 
 ### Tutorials
 - [Topaz Tutorial](Topaz_tutorial.md)
 - [Bilibili](https://www.bilibili.com/read/cv25993828)  ([Archived](https://archive.ph/HfQIm))
 
 ### Models
-| Num | Models (128) |
+| Num | Models (130) |
 | --- | -------------------------- |
 1 | http://models-bal.topazlabs.com/v1/WhiteBalanceData-v2.bin
 2 | http://models-bal.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2
@@ -101,38 +101,40 @@
 91 | http://models-bal.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
 92 | http://models-bal.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
 93 | http://models-bal.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
-94 | http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
-95 | http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
-96 | http://models-bal.topazlabs.com/v1/sdi_embed0.bin
-97 | http://models-bal.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2
-98 | http://models-bal.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz2
-99 | http://models-bal.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2
-100 | http://models-bal.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ort.tz2
-101 | http://models-bal.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ov.tz2
-102 | http://models-bal.topazlabs.com/v1/slb-v1-fp16-512x512-ov.tz
-103 | http://models-bal.topazlabs.com/v1/slb-v1-fp32-512x512-ov.tz
-104 | http://models-bal.topazlabs.com/v1/slb-v1-fp32-512x512-ox.tz
-105 | http://models-bal.topazlabs.com/v1/sll-v1-fp16-512x512-ov.tz
-106 | http://models-bal.topazlabs.com/v1/sll-v1-fp32-512x512-ov.tz
-107 | http://models-bal.topazlabs.com/v1/sll-v1-fp32-512x512-ox.tz
-108 | http://models-bal.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz2
-109 | http://models-bal.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2
-110 | http://models-bal.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2
-111 | http://models-bal.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2
-112 | http://models-bal.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2
-113 | http://models-bal.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2
-114 | http://models-bal.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
-115 | http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
-116 | http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2
-117 | http://models-bal.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz2
-118 | http://models-bal.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz2
-119 | http://models-bal.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz2
-120 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz2
-121 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz2
-122 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2
-123 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz2
-124 | http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2
-125 | http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz2
-126 | http://models-bal.topazlabs.com/v1/txtdtx-v1-fp16-640x960-1x-ox.tz
-127 | http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
-128 | http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2
+94 | http://models-bal.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
+95 | http://models-bal.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
+96 | http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
+97 | http://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
+98 | http://models-bal.topazlabs.com/v1/sdi_embed0.bin
+99 | http://models-bal.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ov.tz2
+100 | http://models-bal.topazlabs.com/v1/sdi_enc-v2-fp16-512x512-ox.tz2
+101 | http://models-bal.topazlabs.com/v1/sdi_imdn-v1-fp32-96x96-2x-ov.tz2
+102 | http://models-bal.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ort.tz2
+103 | http://models-bal.topazlabs.com/v1/sdi_unet-v4-fp16-512x512-ov.tz2
+104 | http://models-bal.topazlabs.com/v1/slb-v1-fp16-512x512-ov.tz
+105 | http://models-bal.topazlabs.com/v1/slb-v1-fp32-512x512-ov.tz
+106 | http://models-bal.topazlabs.com/v1/slb-v1-fp32-512x512-ox.tz
+107 | http://models-bal.topazlabs.com/v1/sll-v1-fp16-512x512-ov.tz
+108 | http://models-bal.topazlabs.com/v1/sll-v1-fp32-512x512-ov.tz
+109 | http://models-bal.topazlabs.com/v1/sll-v1-fp32-512x512-ox.tz
+110 | http://models-bal.topazlabs.com/v1/slsp-v3-fp16-512x512-ov.tz2
+111 | http://models-bal.topazlabs.com/v1/slsp-v3-fp32-512x512-ov.tz2
+112 | http://models-bal.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2
+113 | http://models-bal.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2
+114 | http://models-bal.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2
+115 | http://models-bal.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2
+116 | http://models-bal.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
+117 | http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
+118 | http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2
+119 | http://models-bal.topazlabs.com/v1/sstg-v1-fp16-512x512-ov.tz2
+120 | http://models-bal.topazlabs.com/v1/sstg-v1-fp32-512x512-ov.tz2
+121 | http://models-bal.topazlabs.com/v1/sstg-v1-fp32-512x512-ox.tz2
+122 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ov.tz2
+123 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-2x-ox.tz2
+124 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ov.tz2
+125 | http://models-bal.topazlabs.com/v1/trf-v1-fp16-128x128-4x-ox.tz2
+126 | http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ov.tz2
+127 | http://models-bal.topazlabs.com/v1/trfn-v1-fp16-512x512-1x-ox.tz2
+128 | http://models-bal.topazlabs.com/v1/txtdtx-v1-fp16-640x960-1x-ox.tz
+129 | http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ov.tz2
+130 | http://models-bal.topazlabs.com/v1/wbc-v1-fp16-128x128-ox.tz2

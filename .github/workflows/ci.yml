@@ -28,7 +28,7 @@ jobs:
         sed -i '/^$/d' models.txt
         tr -d '\r' < models.txt > models_unix.txt
         mv models_unix.txt models.txt
-        totalUrlNumber=$(($(wc -l < models.txt) + 1))
+        totalUrlNumber=$(wc -l < models.txt)
 
         templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
         templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}

@@ -6,7 +6,7 @@
 - [Bilibili](https://www.bilibili.com/read/cv25993828)  ([Archived](https://archive.ph/HfQIm))
 
 ### Models
-| Num | Models (143) |
+| Num | Models (142) |
 | --- | -------------------------- |
 1 | http://models-bal.topazlabs.com/v1/WhiteBalanceData-v2.bin
 2 | http://models-bal.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2

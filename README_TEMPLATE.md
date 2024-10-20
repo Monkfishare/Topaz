@@ -6,6 +6,6 @@
 - [Bilibili](BILIBILI_TUTORIAL_LINK)  ([Archived](ARCHIVED_TUTORIAL_LINK))
 
 ### Models
-| Num | Models (TOTAL_URL_NUMBER) |
+| No. | Models (TOTAL_URL_NUMBER) |
 | --- | -------------------------- |
 MODELS_TABLE_CONTENT

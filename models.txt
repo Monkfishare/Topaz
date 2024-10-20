@@ -46,6 +46,10 @@ http://models-bal.topazlabs.com/v1/gfg-v1-fp32-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/gfp-l-v1-fp32-2048x2048-ov.tz2
 http://models-bal.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz2
 http://models-bal.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2
+http://models-bal.topazlabs.com/v1/gfrf-v2-fp16-1024x1024-ov.tz
+http://models-bal.topazlabs.com/v1/gfrf-v2-fp32-1024x1024-ox.tz
+http://models-bal.topazlabs.com/v1/gfrg-v2-fp16-512x512-ov.tz
+http://models-bal.topazlabs.com/v1/gfrg-v2-fp32-512x512-ox.tz
 http://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz2
 http://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz2
 http://models-bal.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2
@@ -85,6 +89,8 @@ http://models-bal.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz2
+http://models-bal.topazlabs.com/v1/ldclc-v1-fp16-64x64-ov.tz
+http://models-bal.topazlabs.com/v1/ldclc-v1-fp32-64x64-ox.tz2
 http://models-bal.topazlabs.com/v1/lensblur-v3-fp16-512x512-ox.tz
 http://models-bal.topazlabs.com/v1/lensblur-v3-fp32-512x512-ov.tz
 http://models-bal.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
@@ -113,6 +119,12 @@ http://models-bal.topazlabs.com/v1/slsp-v3-fp32-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/slsp_ap-v3-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/smp_flexible-v2-fp16-320x320-ov.tz2
 http://models-bal.topazlabs.com/v1/sms_new-v3-fp16-320x320-ov.tz2
+http://models-bal.topazlabs.com/v1/spfcdec-v1-fp16-64x64-ov.tz
+http://models-bal.topazlabs.com/v1/spfcdec-v1-fp32-64x64-ox.tz2
+http://models-bal.topazlabs.com/v1/spfcdit-v1-fp16-64x64-ov.tz
+http://models-bal.topazlabs.com/v1/spfcdit-v1-fp32-64x64-ox.tz2
+http://models-bal.topazlabs.com/v1/spfcenc-v1-fp16-512x512-ov.tz
+http://models-bal.topazlabs.com/v1/spfcenc-v1-fp32-512x512-ox.tz2
 http://models-bal.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
 http://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2

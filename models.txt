@@ -48,8 +48,8 @@ https://models-bal.topazlabs.com/v1/gfp-s-v1-fp32-1024x1024-ov.tz2
 https://models-bal.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2
 https://models-bal.topazlabs.com/v1/gfrf-v2-fp16-1024x1024-ov.tz
 https://models-bal.topazlabs.com/v1/gfrf-v2-fp32-1024x1024-ox.tz
-https://models-bal.topazlabs.com/v1/gfrg-v2-fp16-512x512-ov.tz
-https://models-bal.topazlabs.com/v1/gfrg-v2-fp32-512x512-ox.tz
+https://models-bal.topazlabs.com/v1/gfrg-v3-fp16-512x512-ov.tz
+https://models-bal.topazlabs.com/v1/gfrg-v3-fp32-512x512-ox.tz
 https://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz2
 https://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz2
 https://models-bal.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2

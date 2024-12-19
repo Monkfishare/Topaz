@@ -1,5 +1,5 @@
 ## Topaz Photo AI models
-## Version: [3.3.2](https://downloads.topazlabs.com/deploy/TopazPhotoAI/3.3.2/TopazPhotoAI-3.3.2.msi) (Windows)
+## Version: [3.4.0](https://downloads.topazlabs.com/deploy/TopazPhotoAI/3.4.0/TopazPhotoAI-3.4.0.msi) (Windows)
 
 ### Tutorials
 - [Topaz Tutorial](Topaz_tutorial.md)
@@ -58,8 +58,8 @@
 48 | https://models-bal.topazlabs.com/v1/gfpf-v1-fp16-48x48-ov.tz2
 49 | https://models-bal.topazlabs.com/v1/gfrf-v2-fp16-1024x1024-ov.tz
 50 | https://models-bal.topazlabs.com/v1/gfrf-v2-fp32-1024x1024-ox.tz
-51 | https://models-bal.topazlabs.com/v1/gfrg-v2-fp16-512x512-ov.tz
-52 | https://models-bal.topazlabs.com/v1/gfrg-v2-fp32-512x512-ox.tz
+51 | https://models-bal.topazlabs.com/v1/gfrg-v3-fp16-512x512-ov.tz
+52 | https://models-bal.topazlabs.com/v1/gfrg-v3-fp32-512x512-ox.tz
 53 | https://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-2x-ov.tz2
 54 | https://models-bal.topazlabs.com/v1/ggi-v1-fp16-192x192-4x-ov.tz2
 55 | https://models-bal.topazlabs.com/v1/ggi-v1-fp32-192x192-2x-ov.tz2

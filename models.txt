@@ -1,5 +1,7 @@
 https://models-bal.topazlabs.com/v1/WhiteBalanceData-v2.bin
 https://models-bal.topazlabs.com/v1/apnb-v2-fp32-512x512-ov.tz2
+https://models-bal.topazlabs.com/v1/claa-v1-fp32-512x512-ov.tz
+https://models-bal.topazlabs.com/v1/claa-v1-fp32-512x512-ox.tz
 https://models-bal.topazlabs.com/v1/clc-v2-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz2

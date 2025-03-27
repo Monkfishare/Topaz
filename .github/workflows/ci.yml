@@ -22,17 +22,10 @@ jobs:
         templateContent=${templateContent//TOPAZ_VERSION/$TOPAZ_VERSION}
         templateContent=${templateContent//BILIBILI_TUTORIAL_LINK/https:\/\/www.bilibili.com\/read\/cv25993828}
         templateContent=${templateContent//ARCHIVED_TUTORIAL_LINK/https:\/\/archive.ph\/HfQIm}
-
         modelsTableContent=$(awk '{print NR, "|", $0}' models.txt)
-
-        sed -i '/^$/d' models.txt
-        tr -d '\r' < models.txt > models_unix.txt
-        mv models_unix.txt models.txt
-        totalUrlNumber=$(wc -l < models.txt)
-
+        totalUrlNumber=$(grep -cE '^https?://' models.txt)
         templateContent=${templateContent//MODELS_TABLE_CONTENT/$modelsTableContent}
         templateContent=${templateContent//TOTAL_URL_NUMBER/$totalUrlNumber}
-
         echo "$templateContent" > README.md
 
     - name: Commit and Push Changes

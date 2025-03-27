@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TOPAZ_VERSION: '3.5.0'
+      TOPAZ_VERSION: '3.6.0'
 
     steps:
     - name: Checkout Repository

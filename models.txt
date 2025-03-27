@@ -7,6 +7,7 @@ https://models-bal.topazlabs.com/v1/clc-v2-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/clc-v3-fp16-512x512-ox.tz2
 https://models-bal.topazlabs.com/v1/clc-v3-fp32-512x512-ox.tz2
 https://models-bal.topazlabs.com/v1/daclip-v1-fp32-224x224-1x-ov.tz
+https://models-bal.topazlabs.com/v1/default_prompt.bin
 https://models-bal.topazlabs.com/v1/dnt_beta-v5-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/dnt_beta-v5-fp32-512x512-ox.tz2
@@ -92,9 +93,10 @@ https://models-bal.topazlabs.com/v1/isob-v1-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/isob-v1-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/isob-v1-fp32-512x512-ox.tz2
 https://models-bal.topazlabs.com/v1/ldclc-v1-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/ldclc-v1-fp16-64x64-ox.tz
 https://models-bal.topazlabs.com/v1/ldclc-v1-fp32-64x64-ox.tz2
-https://models-bal.topazlabs.com/v1/lensblur-v3-fp16-512x512-ox.tz
 https://models-bal.topazlabs.com/v1/lensblur-v3-fp32-512x512-ov.tz
+https://models-bal.topazlabs.com/v1/lensblur-v3-fp32-512x512-ox.tz2
 https://models-bal.topazlabs.com/v1/lmx-v1-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/s_mask_l_flexible-v2-fp16-320x320-ov.tz2
 https://models-bal.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
@@ -127,6 +129,16 @@ https://models-bal.topazlabs.com/v1/spfcdit-v1-fp16-64x64-ov.tz
 https://models-bal.topazlabs.com/v1/spfcdit-v1-fp32-64x64-ox.tz2
 https://models-bal.topazlabs.com/v1/spfcenc-v1-fp16-512x512-ov.tz
 https://models-bal.topazlabs.com/v1/spfcenc-v1-fp32-512x512-ox.tz2
+https://models-bal.topazlabs.com/v1/ssddec0_0-v1-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/ssddec0_0-v1-fp16-64x64-ox.tz
+https://models-bal.topazlabs.com/v1/ssddec0_5-v1-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/ssddec0_5-v1-fp16-64x64-ox.tz
+https://models-bal.topazlabs.com/v1/ssddec1_0-v1-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/ssddec1_0-v1-fp16-64x64-ox.tz
+https://models-bal.topazlabs.com/v1/ssdenc-sharpen-v1-fp16-512x512-ov.tz
+https://models-bal.topazlabs.com/v1/ssdenc-sharpen-v1-fp16-512x512-ox.tz
+https://models-bal.topazlabs.com/v1/ssdunet-sharpen-v1-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/ssdunet-sharpen-v1-fp16-64x64-ox.tz
 https://models-bal.topazlabs.com/v1/sstd-v2-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/sstd-v2-fp32-512x512-ox.tz2

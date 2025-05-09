@@ -86,6 +86,8 @@ https://models-bal.topazlabs.com/v1/gmp-v1-fp32-192x192-2x-ov.tz2
 https://models-bal.topazlabs.com/v1/gmp-v1-fp32-192x192-4x-ov.tz2
 https://models-bal.topazlabs.com/v1/gmp-v2-fp32-192x192-2x-ox.tz2
 https://models-bal.topazlabs.com/v1/gmp-v2-fp32-192x192-4x-ox.tz2
+https://models-bal.topazlabs.com/v1/iri-v1-fp32-800x800-ov.tz
+https://models-bal.topazlabs.com/v1/iri-v1-fp32-800x800-ox.tz
 https://models-bal.topazlabs.com/v1/isoa-v1-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/isoa-v1-fp32-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/isoa-v1-fp32-512x512-ox.tz2
@@ -103,6 +105,12 @@ https://models-bal.topazlabs.com/v1/samdec-v1-fp16-1024x1024-ov.tz
 https://models-bal.topazlabs.com/v1/samdec-v1-fp32-1024x1024-ox.tz
 https://models-bal.topazlabs.com/v1/samenc-v1-fp16-1024x1024-ov.tz
 https://models-bal.topazlabs.com/v1/samenc-v1-fp32-1024x1024-ox.tz
+https://models-bal.topazlabs.com/v1/sddustdec-v2-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/sddustdec-v2-fp16-64x64-ox.tz
+https://models-bal.topazlabs.com/v1/sddustenc-v2-fp16-512x512-ov.tz
+https://models-bal.topazlabs.com/v1/sddustenc-v2-fp16-512x512-ox.tz
+https://models-bal.topazlabs.com/v1/sddustunet-v2-fp16-64x64-ov.tz
+https://models-bal.topazlabs.com/v1/sddustunet-v2-fp16-64x64-ox.tz
 https://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ov.tz2
 https://models-bal.topazlabs.com/v1/sdi_dec-v2-fp16-512x512-ox.tz2
 https://models-bal.topazlabs.com/v1/sdi_embed0.bin
